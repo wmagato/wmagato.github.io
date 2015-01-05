@@ -26,7 +26,7 @@ nv.addGraph(function() {
                    color: '#cccccc',
                    values: [
                      { x: Date.parse('Dec 23, 2014'), y: 216 },
-                     { x: Date.parse('Jan 3, 2015'),  y: 216 },
+                     { x: Date.parse('Jan 03, 2015'), y: 216 },
                    ]
                  },
                  {
@@ -34,7 +34,7 @@ nv.addGraph(function() {
                    color: '#2ca02c',
                    values: [
                      { x: Date.parse('Dec 23, 2014'), y: 165},
-                     { x: Date.parse('Jan 3, 2015'),  y: 165},
+                     { x: Date.parse('Jan 03, 2015'), y: 165},
                    ]
                  },
                  {
@@ -42,7 +42,7 @@ nv.addGraph(function() {
                    color: '#ff7f0e',
                    values: [
                      { x: Date.parse('Dec 23, 2014'), y: 195},
-                     { x: Date.parse('Jan 3, 2015'),  y: 175},
+                     { x: Date.parse('Jan 03, 2015'), y: 175},
                    ]
                  },
                  {
@@ -50,7 +50,7 @@ nv.addGraph(function() {
                    color: '#7777ff',
                    values: [
                      { x: Date.parse('Dec 23, 2014'), y: 215},
-                     { x: Date.parse('Jan 3, 2015'),  y: 175},
+                     { x: Date.parse('Jan 03, 2015'), y: 175},
                    ]
                  },
                ];
