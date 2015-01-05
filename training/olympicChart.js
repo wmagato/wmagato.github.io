@@ -18,43 +18,46 @@ nv.addGraph(function() {
       .axisLabel('Weight (lbs)');
   chart.forceY([150]);
 
-  /* Done setting the chart up? Time to render it!*/
-  var myData = olympicData();   //You need data...
-
   d3.select('#olympicChart svg')    //Select the <svg> element you want to render the chart in.   
-      .datum(myData)         //Populate the <svg> element with chart data...
+      .datum(function () {          //Populate the <svg> element with chart data...
+               return [
+                 {
+                   key: 'Body Weight',
+                   color: '#cccccc',
+                   values: [
+                     { x: Date.parse('Dec 23, 2014'), y: 216 },
+                     { x: Date.parse('Jan 3, 2015'),  y: 216 },
+                   ]
+                 },
+                 {
+                   key: 'Snatch',
+                   color: '#2ca02c',
+                   values: [
+                     { x: Date.parse('Dec 23, 2014'), y: 165},
+                     { x: Date.parse('Jan 3, 2015'),  y: 165},
+                   ]
+                 },
+                 {
+                   key: 'Clean & Jerk',
+                   color: '#ff7f0e',
+                   values: [
+                     { x: Date.parse('Dec 23, 2014'), y: 195},
+                     { x: Date.parse('Jan 3, 2015'),  y: 175},
+                   ]
+                 },
+                 {
+                   key: 'Squat Clean',
+                   color: '#7777ff',
+                   values: [
+                     { x: Date.parse('Dec 23, 2014'), y: 215},
+                     { x: Date.parse('Jan 3, 2015'),  y: 175},
+                   ]
+                 },
+               ];
+             })
       .call(chart);          //Finally, render the chart!
 
   //Update the chart when window resizes.
   nv.utils.windowResize(function() { chart.update() });
   return chart;
 });
-function olympicData() {
-  //Line chart data should be sent as an array of series objects.
-  return [
-    {
-      key: 'Body Weight',
-      color: '#cccccc',
-      values: [ { x: Date.parse('Dec 23, 2014'), y: 216},
-                { x: Date.parse('Jan 3, 2015'), y: 216} ]
-    },
-    {
-      key: 'Snatch',
-      color: '#2ca02c',
-      values: [ { x: Date.parse('Dec 23, 2014'), y: 165},
-                { x: Date.parse('Jan 3, 2015'), y: 165} ]
-    },
-    {
-      key: 'Clean & Jerk',
-      color: '#ff7f0e',
-      values: [ { x: Date.parse('Dec 23, 2014'), y: 195},
-                { x: Date.parse('Jan 3, 2015'), y: 175} ]
-    },
-    {
-      key: 'Squat Clean',
-      color: '#7777ff',
-      values: [ { x: Date.parse('Dec 23, 2014'), y: 215},
-                { x: Date.parse('Jan 3, 2015'), y: 175} ]
-    },
-  ];
-}
