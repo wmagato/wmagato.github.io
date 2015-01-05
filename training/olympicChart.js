@@ -50,7 +50,7 @@ function olympicData() {
     {
       values: weight,
       key: 'Body Weight',
-      color: '#0f0f0f',
+      color: '#7f7f7f',
     },
     {
       values: snatch,
