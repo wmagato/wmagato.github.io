@@ -30,42 +30,31 @@ nv.addGraph(function() {
   return chart;
 });
 function olympicData() {
-  var weight = [];
-  var snatch = [];
-  var cleanAndJerk = [];
-  var clean = [];
-
-  weight.push({x: Date.parse('Dec 23, 2014'), y: 216});
-  snatch.push({x: Date.parse('Dec 23, 2014'), y: 165});
-  cleanAndJerk.push({x: Date.parse('Dec 23, 2014'), y: 195});
-  clean.push({x: Date.parse('Dec 23, 2014'), y: 215});
-
-  weight.push({x: Date.parse('Jan 3, 2015'), y: 216});
-  snatch.push({x: Date.parse('Jan 3, 2015'), y: 165});
-  cleanAndJerk.push({x: Date.parse('Jan 3, 2015'), y: 175});
-  clean.push({x: Date.parse('Jan 3, 2015'), y: 175});
-
   //Line chart data should be sent as an array of series objects.
   return [
     {
-      values: weight,
       key: 'Body Weight',
       color: '#cccccc',
+      values: [ { x: Date.parse('Dec 23, 2014'), y: 216},
+                { x: Date.parse('Jan 3, 2015'), y: 216} ]
     },
     {
-      values: snatch,
       key: 'Snatch',
-      color: '#2ca02c'
+      color: '#2ca02c',
+      values: [ { x: Date.parse('Dec 23, 2014'), y: 165},
+                { x: Date.parse('Jan 3, 2015'), y: 165} ]
     },
     {
-      values: cleanAndJerk,      //values - represents the array of {x,y} data points
-      key: 'Clean & Jerk', //key  - the name of the series.
-      color: '#ff7f0e'  //color - optional: choose your own line color.
+      key: 'Clean & Jerk',
+      color: '#ff7f0e',
+      values: [ { x: Date.parse('Dec 23, 2014'), y: 195},
+                { x: Date.parse('Jan 3, 2015'), y: 175} ]
     },
     {
-      values: clean,
       key: 'Squat Clean',
       color: '#7777ff',
+      values: [ { x: Date.parse('Dec 23, 2014'), y: 215},
+                { x: Date.parse('Jan 3, 2015'), y: 175} ]
     },
   ];
 }
