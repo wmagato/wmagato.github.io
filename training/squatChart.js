@@ -42,7 +42,7 @@ nv.addGraph(function() {
                    color: '#ff7f0e',
                    values: [
                      { x: Date.parse('Dec 29, 2014'), y: 195 },
-                     { x: Date.parse('Jan 06, 2014'), y: 225 },
+                     { x: Date.parse('Jan 06, 2015'), y: 225 },
                    ]
                  },
                ];
