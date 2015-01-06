@@ -40,6 +40,13 @@ nv.addGraph(function() {
                      { x: Date.parse('Jan 2, 2015'), y: 359000 },
                    ]
                  },
+                 {
+                   key: 'Isabel',
+                   color: '#f07f0f',
+                   values: [
+                     { x: Date.parse('Jan 06, 2015'), y: 502000 },
+                   ]
+                 },
                ];
              })
       .call(chart);          //Finally, render the chart!
