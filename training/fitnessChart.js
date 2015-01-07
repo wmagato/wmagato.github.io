@@ -24,10 +24,20 @@ nv.addGraph(function() {
       .datum(function crossfitData() {  //Populate the <svg> element with chart data...
                return [
                  {
-                   key: 'Isabel',
+                   key: 'Plank',
                    color: '#2ca02c',
                    values: [
-                     { x: Date.parse('Jan 06, 2015'), y: 502000 },
+                     { x: Date.parse('Dec 29, 2014'), y: 60000 },
+                     { x: Date.parse('Jan 01, 2015'), y: 65000 },
+                     { x: Date.parse('Jan 03, 2015'), y: 70000 },
+                     { x: Date.parse('Jan 05, 2015'), y: 75000 },
+                   ]
+                 },
+                 {
+                   key: '50-Burpees',
+                   color: '#ff7f0e',
+                   values: [
+                     { x: Date.parse('Jan 2, 2015'), y: 359000 },
                    ]
                  },
                ];
