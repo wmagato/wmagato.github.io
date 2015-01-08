@@ -41,8 +41,9 @@ nv.addGraph(function() {
                    key: '5RM',
                    color: '#ff7f0e',
                    values: [
-                     { x: Date.parse('Jan 1, 2015'), y: 260 },
-                     { x: Date.parse('Jan 5, 2015'), y: 275 },
+                     { x: Date.parse('Jan 01, 2015'), y: 260 },
+                     { x: Date.parse('Jan 05, 2015'), y: 275 },
+                     { x: Date.parse('Jan 08, 2015'), y: 305 },
                    ]
                  },
                ];
