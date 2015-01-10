@@ -16,7 +16,7 @@ nv.addGraph(function() {
 
   chart.yAxis     //Chart y-axis settings
       .axisLabel('Weight (lbs)');
-  chart.forceY([250]);
+  chart.forceY([250, 360]);
 
   d3.select('#deadliftChart svg')       //Select the <svg> element you want to render the chart in.   
       .datum(function deadliftData() {  //Populate the <svg> element with chart data...
