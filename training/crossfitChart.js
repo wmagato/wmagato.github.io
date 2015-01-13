@@ -18,7 +18,7 @@ nv.addGraph(function() {
       .tickFormat(function(d) {
             return d3.time.format("%M:%S")(new Date(d))
           });
-  chart.forceY([0, 600000]);
+  chart.forceY([0, 900000]);
 
   d3.select('#crossfitChart svg')       //Select the <svg> element you want to render the chart in.   
       .datum(function crossfitData() {  //Populate the <svg> element with chart data...
@@ -29,6 +29,20 @@ nv.addGraph(function() {
                    values: [
                      { x: Date.parse('Jan 06, 2015'), y: 502000 },
                      { x: Date.parse('Jan 09, 2015'), y: 355000 },
+                   ]
+                 },
+                 {
+                   key: 'Elizabeth',
+                   color: '#fcaf2c',
+                   values: [
+                     { x: Date.parse('Jan 13, 2015'), y: 836000 },
+                   ]
+                 },
+                 {
+                   key: 'Annie',
+                   color: '#33af33',
+                   values: [
+                     { x: Date.parse('Jan 13, 2015'), y: 864000 },
                    ]
                  },
                ];
