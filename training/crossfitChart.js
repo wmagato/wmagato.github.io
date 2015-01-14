@@ -25,7 +25,6 @@ nv.addGraph(function() {
                return [
                  {
                    key: 'Isabel',
-                   color: '#2ca02c',
                    values: [
                      { x: Date.parse('Jan 06, 2015'), y: 502000 },
                      { x: Date.parse('Jan 09, 2015'), y: 355000 },
@@ -33,14 +32,12 @@ nv.addGraph(function() {
                  },
                  {
                    key: 'Elizabeth',
-                   color: '#fcaf2c',
                    values: [
                      { x: Date.parse('Jan 13, 2015'), y: 836000 },
                    ]
                  },
                  {
                    key: 'Annie',
-                   color: '#33af33',
                    values: [
                      { x: Date.parse('Jan 13, 2015'), y: 864000 },
                    ]

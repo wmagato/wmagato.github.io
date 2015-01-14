@@ -25,7 +25,6 @@ nv.addGraph(function() {
                return [
                  {
                    key: 'Plank',
-                   color: '#2ca02c',
                    values: [
                      { x: Date.parse('Dec 29, 2014'), y: 60000 },
                      { x: Date.parse('Jan 01, 2015'), y: 65000 },
@@ -36,7 +35,6 @@ nv.addGraph(function() {
                  },
                  {
                    key: '50-Burpees',
-                   color: '#ff7f0e',
                    values: [
                      { x: Date.parse('Jan 02, 2015'), y: 359000 },
                      { x: Date.parse('Jan 09, 2015'), y: 415000 },

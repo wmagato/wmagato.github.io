@@ -23,7 +23,6 @@ nv.addGraph(function() {
                return [
                  {
                    key: 'Body Weight',
-                   color: '#2c2c2c',
                    values: [
                      { x: Date.parse('Dec 23, 2014'), y: 216 },
                      { x: Date.parse('Jan 03, 2015'), y: 216 },
@@ -32,7 +31,6 @@ nv.addGraph(function() {
                  },
                  {
                    key: 'Snatch',
-                   color: '#2ca02c',
                    values: [
                      { x: Date.parse('Dec 23, 2014'), y: 165},
                      { x: Date.parse('Jan 03, 2015'), y: 165},
@@ -41,18 +39,8 @@ nv.addGraph(function() {
                  },
                  {
                    key: 'Clean & Jerk',
-                   color: '#ff7f0e',
                    values: [
                      { x: Date.parse('Dec 23, 2014'), y: 195},
-                     { x: Date.parse('Jan 03, 2015'), y: 175},
-                     { x: Date.parse('Jan 07, 2015'), y: 200},
-                   ]
-                 },
-                 {
-                   key: 'Squat Clean',
-                   color: '#7777ff',
-                   values: [
-                     { x: Date.parse('Dec 23, 2014'), y: 215},
                      { x: Date.parse('Jan 03, 2015'), y: 175},
                      { x: Date.parse('Jan 07, 2015'), y: 200},
                    ]
