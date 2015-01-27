@@ -18,6 +18,8 @@ nv.addGraph(function() {
       .tickFormat(function(d) {
             return d3.time.format("%M:%S")(new Date(d))
           });
+
+  chart.forceX([Date.parse('Dec 22, 2014'), Date.parse('Feb 28, 2015')]);
   chart.forceY([0, 900000]);
 
   d3.select('#crossfitChart svg')       //Select the <svg> element you want to render the chart in.   
