@@ -16,7 +16,7 @@ nv.addGraph(function() {
 
   chart.yAxis     //Chart y-axis settings
        .axisLabel('Weight (lbs)');
-  chart.forceY([150, 350]);
+  chart.forceY([150, 400]);
 
   d3.select('#barbellChart svg')       //Select the <svg> element you want to render the chart in.   
       .datum(function squatData() {  //Populate the <svg> element with chart data...
