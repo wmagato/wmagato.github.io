@@ -43,6 +43,12 @@ nv.addGraph(function() {
                      { x: Date.parse('Jan 09, 2015'), y: 415000 },
                    ]
                  },
+                 {
+                   key: '50-Ring Dips',
+                   values: [
+                     { x: Date.parse('Jan 29, 2015'), y: 462000 },
+                   ]
+                 },
                ];
              })
       .call(chart);          //Finally, render the chart!
