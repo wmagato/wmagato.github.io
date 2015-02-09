@@ -49,6 +49,12 @@ nv.addGraph(function() {
                      { x: Date.parse('Jan 29, 2015'), y: 462000 },
                    ]
                  },
+                 {
+                   key: '50-Pull-ups',
+                   values: [
+                     { x: Date.parse('Feb 09, 2015'), y: 436000 },
+                   ]
+                 },
                ];
              })
       .call(chart);          //Finally, render the chart!
