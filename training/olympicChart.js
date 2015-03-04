@@ -17,7 +17,7 @@ nv.addGraph(function() {
   chart.yAxis     //Chart y-axis settings
       .axisLabel('Weight (lbs)');
 
-  chart.forceX([Date.parse('Dec 22, 2014'), Date.parse('Feb 28, 2015')]);
+  chart.forceX([Date.parse('Dec 22, 2014'), Date.parse('Mar 31, 2015')]);
   chart.forceY([150, 250]);
 
   d3.select('#olympicChart svg')    //Select the <svg> element you want to render the chart in.   
@@ -31,6 +31,7 @@ nv.addGraph(function() {
                      { x: Date.parse('Jan 07, 2015'), y: 219 },
                      { x: Date.parse('Jan 20, 2015'), y: 219 },
                      { x: Date.parse('Jan 27, 2015'), y: 222 },
+                     { x: Date.parse('Mar 03, 2015'), y: 216 },
                    ]
                  },
                  {
