@@ -17,7 +17,7 @@ nv.addGraph(function() {
   chart.yAxis     //Chart y-axis settings
        .axisLabel('Weight (lbs)');
 
-  chart.forceX([Date.parse('Dec 22, 2014'), Date.parse('Feb 28, 2015')]);
+  chart.forceX([Date.parse('Dec 22, 2014'), Date.parse('Mar 31, 2015')]);
   chart.forceY([150, 400]);
 
   d3.select('#barbellChart svg')       //Select the <svg> element you want to render the chart in.   
@@ -78,6 +78,12 @@ nv.addGraph(function() {
                      { x: Date.parse('Dec 23, 2014'), y: 215},
                      { x: Date.parse('Jan 03, 2015'), y: 175},
                      { x: Date.parse('Jan 07, 2015'), y: 200},
+                   ]
+                 },
+                 {
+                   key: 'Jerk 1RM',
+                   values: [
+                     { x: Date.parse('Mar 04, 2015'), y: 205},
                    ]
                  },
                ];
