@@ -84,6 +84,7 @@ nv.addGraph(function() {
                    key: 'Jerk 1RM',
                    values: [
                      { x: Date.parse('Mar 04, 2015'), y: 205},
+                     { x: Date.parse('Mar 09, 2015'), y: 215},
                    ]
                  },
                ];
