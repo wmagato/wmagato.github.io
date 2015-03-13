@@ -62,6 +62,13 @@ nv.addGraph(function() {
                      { x: Date.parse('Mar 05, 2015'), y: 317000 },
                    ]
                  },
+                 {
+                   key: '50\'s-Combined',
+                   values: [
+                     { x: Date.parse('Mar 06, 2015'), y: 1577000 },
+                     { x: Date.parse('Mar 13, 2015'), y: 1550000 },
+                   ]
+                 },
                ];
              })
       .call(chart);          //Finally, render the chart!
