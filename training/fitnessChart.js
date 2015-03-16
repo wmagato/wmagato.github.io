@@ -60,15 +60,16 @@ nv.addGraph(function() {
                      { x: Date.parse('Feb 16, 2015'), y: 467000 },
                      { x: Date.parse('Feb 23, 2015'), y: 350000 },
                      { x: Date.parse('Mar 05, 2015'), y: 317000 },
+                     { x: Date.parse('Mar 15, 2015'), y: 319000 },
                    ]
                  },
-                 {
-                   key: '50\'s-Combined',
-                   values: [
-                     { x: Date.parse('Mar 06, 2015'), y: 1577000 },
-                     { x: Date.parse('Mar 13, 2015'), y: 1550000 },
-                   ]
-                 },
+//                 {
+//                   key: '50\'s-Combined',
+//                   values: [
+//                     { x: Date.parse('Mar 06, 2015'), y: 1577000 },
+//                     { x: Date.parse('Mar 13, 2015'), y: 1550000 },
+//                   ]
+//                 },
                ];
              })
       .call(chart);          //Finally, render the chart!
