@@ -31,6 +31,7 @@ nv.addGraph(function() {
                      { x: Date.parse('Jan 12, 2015'), y: 245 },
                      { x: Date.parse('Jan 21, 2015'), y: 215 },
                      { x: Date.parse('Jan 26, 2015'), y: 255 },
+                     { x: Date.parse('Mar 24, 2015'), y: 225 },
                    ]
                  },
                  {
@@ -41,10 +42,9 @@ nv.addGraph(function() {
                      { x: Date.parse('Jan 12, 2015'), y: 215 },
                      { x: Date.parse('Jan 19, 2015'), y: 225 },
                      { x: Date.parse('Jan 26, 2015'), y: 235 },
-                     { x: Date.parse('Feb 02, 2015'), y: 245 },
-                     { x: Date.parse('Feb 09, 2015'), y: 255 },
-                     { x: Date.parse('Feb 16, 2015'), y: 265 },
-                     { x: Date.parse('Feb 23, 2015'), y: 275 },
+                     { x: Date.parse('Jan 28, 2015'), y:   0 },
+                     { x: Date.parse('Mar 24, 2015'), y:   0 },
+                     { x: Date.parse('Mar 24, 2015'), y: 195 },
                    ]
                  },
                  {
@@ -65,11 +65,7 @@ nv.addGraph(function() {
                      { x: Date.parse('Jan 07, 2015'), y: 270 },
                      { x: Date.parse('Jan 14, 2015'), y: 280 },
                      { x: Date.parse('Jan 21, 2015'), y: 290 },
-                     { x: Date.parse('Jan 28, 2015'), y: 300 },
-                     { x: Date.parse('Feb 04, 2015'), y: 310 },
-                     { x: Date.parse('Feb 11, 2015'), y: 320 },
-                     { x: Date.parse('Feb 18, 2015'), y: 330 },
-                     { x: Date.parse('Feb 25, 2015'), y: 340 },
+                     { x: Date.parse('Jan 28, 2015'), y:   0 },
                    ]
                  },
                  {
