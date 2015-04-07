@@ -19,7 +19,7 @@ nv.addGraph(function() {
             return d3.time.format("%M:%S")(new Date(d))
           });
 
-  chart.forceX([Date.parse('Dec 22, 2014'), Date.parse('Mar 31, 2015')]);
+  chart.forceX([Date.parse('Dec 22, 2014'), Date.parse('Apr 30, 2015')]);
   chart.forceY([0, 600000]);
 
   d3.select('#fitnessChart svg')       //Select the <svg> element you want to render the chart in.   
