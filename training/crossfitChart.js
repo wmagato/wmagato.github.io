@@ -20,7 +20,7 @@ nv.addGraph(function() {
           });
 
   chart.forceX([Date.parse('Dec 22, 2014'), Date.parse('Apr 30, 2015')]);
-  chart.forceY([0, 900000]);
+  chart.forceY([0, 1300000]);
 
   d3.select('#crossfitChart svg')       //Select the <svg> element you want to render the chart in.   
       .datum(function crossfitData() {  //Populate the <svg> element with chart data...
