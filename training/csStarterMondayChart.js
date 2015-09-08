@@ -44,7 +44,7 @@ nv.addGraph(function() {
                  {
                    key: 'Back Squat (5x5)',
                    values: [
-                     { x: Date.parse('Sep 08, 2015'), y: 185 },
+                     { x: Date.parse('Sep 08, 2015'), y: 155 },
                    ]
                  },
                ];
