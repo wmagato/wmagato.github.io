@@ -20,7 +20,7 @@ nv.addGraph(function() {
   chart.forceX([Date.parse('Sep 01, 2015'), Date.parse('Nov 10, 2015')]);
   chart.forceY([125, 275]);
 
-  d3.select('#csStarterMondayChart svg')       //Select the <svg> element you want to render the chart in.   
+  d3.select('#csStarterFridayChart svg')       //Select the <svg> element you want to render the chart in.   
       .datum(function squatData() {  //Populate the <svg> element with chart data...
                return [
                  {
@@ -32,22 +32,19 @@ nv.addGraph(function() {
                  {
                    key: 'Snatch (1,2,2,2)',
                    values: [
-                     { x: Date.parse('Sep 02, 2015'), y: 226 },
-                     { x: Date.parse('Sep 03, 2015'), y: 227 },
-                     { x: Date.parse('Sep 04, 2015'), y: 226 },
+                     { x: Date.parse('Sep 02, 2015'), y: 135 },
                    ]
                  },
                  {
                    key: 'Clean & Jerk (1,2,2,2)',
                    values: [
-                     { x: Date.parse('Sep 02, 2015'), y: 226 },
-                     { x: Date.parse('Nov 10, 2015'), y: 206 },
+                     { x: Date.parse('Sep 02, 2015'), y: 185 },
                    ]
                  },
                  {
                    key: 'Back Squat (1,3,3)',
                    values: [
-                     { x: Date.parse('Sep 02, 2015'), y: 135 },
+                     { x: Date.parse('Sep 02, 2015'), y: 185 },
                    ]
                  },
                ];

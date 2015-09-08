@@ -20,7 +20,7 @@ nv.addGraph(function() {
   chart.forceX([Date.parse('Sep 01, 2015'), Date.parse('Nov 10, 2015')]);
   chart.forceY([125, 275]);
 
-  d3.select('#csStarterMondayChart svg')       //Select the <svg> element you want to render the chart in.   
+  d3.select('#csStarterWednesdayChart svg')       //Select the <svg> element you want to render the chart in.   
       .datum(function squatData() {  //Populate the <svg> element with chart data...
                return [
                  {
