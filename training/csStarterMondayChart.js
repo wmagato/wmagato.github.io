@@ -17,8 +17,8 @@ nv.addGraph(function() {
   chart.yAxis     //Chart y-axis settings
        .axisLabel('Weight (lbs)');
 
-  chart.forceX([Date.parse('Sep 01, 2015'), Date.parse('Nov 10, 2015')]);
-  chart.forceY([125, 275]);
+  chart.forceX([Date.parse('Sep 07, 2015'), Date.parse('Nov 16, 2015')]);
+  chart.forceY([125, 250]);
 
   d3.select('#csStarterMondayChart svg')       //Select the <svg> element you want to render the chart in.   
       .datum(function squatData() {  //Populate the <svg> element with chart data...
@@ -26,29 +26,25 @@ nv.addGraph(function() {
                  {
                    key: '3-Position Snatch (10x1)',
                    values: [
-                     { x: Date.parse('Sep 02, 2015'), y: 226 },
-                     { x: Date.parse('Sep 03, 2015'), y: 227 },
-                     { x: Date.parse('Sep 04, 2015'), y: 226 },
+                     { x: Date.parse('Sep 08, 2015'), y: 135 },
                    ]
                  },
                  {
                    key: 'Power Clean (5x2)',
                    values: [
-                     { x: Date.parse('Sep 02, 2015'), y: 226 },
-                     { x: Date.parse('Nov 10, 2015'), y: 206 },
+                     { x: Date.parse('Sep 08, 2015'), y: 205 },
                    ]
                  },
                  {
                    key: 'Split Jerk (5x2)',
                    values: [
-                     { x: Date.parse('Sep 02, 2015'), y: 135 },
+                     { x: Date.parse('Sep 08, 2015'), y: 185 },
                    ]
                  },
                  {
                    key: 'Back Squat (5x5)',
                    values: [
-                     { x: Date.parse('Sep 02, 2015'), y: 135 },
-                     { x: Date.parse('Nov 10, 2015'), y: 185 },
+                     { x: Date.parse('Sep 08, 2015'), y: 185 },
                    ]
                  },
                ];
