@@ -25,28 +25,24 @@ nv.addGraph(function() {
                return [
                  {
                    key: 'HS + OHS (5x1)',
-                   color: '#FE2E2E',
                    values: [
                      { x: Date.parse('Sep 09, 2015'), y: 145 },
                    ]
                  },
                  {
                    key: '3-Position Clean (10x1)',
-                   color: '#2E2EFE',
                    values: [
                      { x: Date.parse('Sep 09, 2015'), y: 195 },
                    ]
                  },
                  {
                    key: 'Front Squat (5x3)',
-                   color: '#2EFE64',
                    values: [
                      { x: Date.parse('Sep 09, 2015'), y: 185 },
                    ]
                  },
                  {
                    key: 'Push Jerk (5x3)',
-                   color: '#FE9A2E',
                    values: [
                      { x: Date.parse('Sep 09, 2015'), y: 95 },
                    ]
