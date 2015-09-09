@@ -18,7 +18,7 @@ nv.addGraph(function() {
        .axisLabel('Weight (lbs)');
 
   chart.forceX([Date.parse('Sep 07, 2015'), Date.parse('Nov 16, 2015')]);
-  chart.forceY([125, 250]);
+  chart.forceY([75, 275]);
 
   d3.select('#csStarterMondayChart svg')       //Select the <svg> element you want to render the chart in.   
       .datum(function squatData() {  //Populate the <svg> element with chart data...
