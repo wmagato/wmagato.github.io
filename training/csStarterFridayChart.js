@@ -18,7 +18,7 @@ nv.addGraph(function() {
        .axisLabel('Weight (lbs)');
 
   chart.forceX([Date.parse('Sep 01, 2015'), Date.parse('Nov 10, 2015')]);
-  chart.forceY([125, 275]);
+//  chart.forceY([125, 275]);
 
   d3.select('#csStarterFridayChart svg')       //Select the <svg> element you want to render the chart in.   
       .datum(function squatData() {  //Populate the <svg> element with chart data...
@@ -27,18 +27,21 @@ nv.addGraph(function() {
                    key: 'Body Weight',
                    values: [
                      { x: Date.parse('Sep 02, 2015'), y: 226 },
+                     { x: Date.parse('Sep 11, 2015'), y: 228 },
                    ]
                  },
                  {
                    key: 'Snatch (1,2,2,2)',
                    values: [
                      { x: Date.parse('Sep 02, 2015'), y: 135 },
+                     { x: Date.parse('Sep 11, 2015'), y: 165 },
                    ]
                  },
                  {
                    key: 'Clean & Jerk (1,2,2,2)',
                    values: [
                      { x: Date.parse('Sep 02, 2015'), y: 185 },
+                     { x: Date.parse('Sep 11, 2015'), y: 205 },
                    ]
                  },
                  {
