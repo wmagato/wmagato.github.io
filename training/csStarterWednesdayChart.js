@@ -27,24 +27,28 @@ nv.addGraph(function() {
                    key: 'HS + OHS (5x1)',
                    values: [
                      { x: Date.parse('Sep 09, 2015'), y: 145 },
+                     { x: Date.parse('Sep 16, 2015'), y: 155 },
                    ]
                  },
                  {
                    key: '3-Position Clean (10x1)',
                    values: [
                      { x: Date.parse('Sep 09, 2015'), y: 195 },
+                     { x: Date.parse('Sep 16, 2015'), y: 210 },
                    ]
                  },
                  {
                    key: 'Front Squat (5x3)',
                    values: [
                      { x: Date.parse('Sep 09, 2015'), y: 185 },
+                     { x: Date.parse('Sep 16, 2015'), y: 205 },
                    ]
                  },
                  {
                    key: 'Push Jerk (5x3)',
                    values: [
                      { x: Date.parse('Sep 09, 2015'), y: 95 },
+                     { x: Date.parse('Sep 16, 2015'), y: 155 },
                    ]
                  },
                ];
