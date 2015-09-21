@@ -44,7 +44,7 @@ nv.addGraph(function() {
                    values: [
                      { x: Date.parse('Sep 08, 2015'), y: 185 },
                      { x: Date.parse('Sep 14, 2015'), y: 205 },
-                     { x: Date.parse('Sep 21, 2015'), y: 135 },
+// injured                    { x: Date.parse('Sep 21, 2015'), y: 135 },
                    ]
                  },
                  {
@@ -52,7 +52,7 @@ nv.addGraph(function() {
                    values: [
                      { x: Date.parse('Sep 08, 2015'), y: 155 },
                      { x: Date.parse('Sep 14, 2015'), y: 205 },
-                     { x: Date.parse('Sep 21, 2015'), y: 135 },
+// injured                     { x: Date.parse('Sep 21, 2015'), y: 135 },
                    ]
                  },
                ];
