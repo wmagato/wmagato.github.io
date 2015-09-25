@@ -24,14 +24,6 @@ nv.addGraph(function() {
       .datum(function squatData() {  //Populate the <svg> element with chart data...
                return [
                  {
-                   key: 'Body Weight',
-                   values: [
-//                     { x: Date.parse('Sep 02, 2015'), y: 226 },
-                     { x: Date.parse('Sep 11, 2015'), y: 228 },
-                     { x: Date.parse('Sep 18, 2015'), y: 230 },
-                   ]
-                 },
-                 {
                    key: 'Snatch (1,2,2,2)',
                    values: [
 //                     { x: Date.parse('Sep 02, 2015'), y: 135 },
@@ -52,6 +44,15 @@ nv.addGraph(function() {
                    values: [
 //                     { x: Date.parse('Sep 02, 2015'), y: 185 },
                      { x: Date.parse('Sep 18, 2015'), y: 225 },
+                   ]
+                 },
+                 {
+                   key: 'Body Weight',
+                   color: '#000000'
+                   values: [
+//                     { x: Date.parse('Sep 02, 2015'), y: 226 },
+                     { x: Date.parse('Sep 11, 2015'), y: 228 },
+                     { x: Date.parse('Sep 18, 2015'), y: 230 },
                    ]
                  },
                ];

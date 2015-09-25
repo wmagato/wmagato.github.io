@@ -40,19 +40,19 @@ nv.addGraph(function() {
                    ]
                  },
                  {
-                   key: 'Split Jerk (5x2)',
-                   values: [
-                     { x: Date.parse('Sep 08, 2015'), y: 185 },
-                     { x: Date.parse('Sep 14, 2015'), y: 205 },
-// injured                    { x: Date.parse('Sep 21, 2015'), y: 135 },
-                   ]
-                 },
-                 {
                    key: 'Back Squat (5x5)',
                    values: [
                      { x: Date.parse('Sep 08, 2015'), y: 155 },
                      { x: Date.parse('Sep 14, 2015'), y: 205 },
 // injured                     { x: Date.parse('Sep 21, 2015'), y: 135 },
+                   ]
+                 },
+                 {
+                   key: 'Split Jerk (5x2)',
+                   values: [
+                     { x: Date.parse('Sep 08, 2015'), y: 185 },
+                     { x: Date.parse('Sep 14, 2015'), y: 205 },
+// injured                    { x: Date.parse('Sep 21, 2015'), y: 135 },
                    ]
                  },
                ];
