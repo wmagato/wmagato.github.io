@@ -48,7 +48,7 @@ nv.addGraph(function() {
                  },
                  {
                    key: 'Body Weight',
-                   color: '#000000'
+                   color: '#000000',
                    values: [
 //                     { x: Date.parse('Sep 02, 2015'), y: 226 },
                      { x: Date.parse('Sep 11, 2015'), y: 228 },
