@@ -29,6 +29,7 @@ nv.addGraph(function() {
 //                     { x: Date.parse('Sep 02, 2015'), y: 135 },
                      { x: Date.parse('Sep 11, 2015'), y: 165 },
                      { x: Date.parse('Sep 18, 2015'), y: 175 },
+                     { x: Date.parse('Sep 25, 2015'), y: 175 },
                    ]
                  },
                  {
@@ -37,6 +38,7 @@ nv.addGraph(function() {
 //                     { x: Date.parse('Sep 02, 2015'), y: 185 },
                      { x: Date.parse('Sep 11, 2015'), y: 205 },
                      { x: Date.parse('Sep 18, 2015'), y: 215 },
+                     { x: Date.parse('Sep 25, 2015'), y: 215 },
                    ]
                  },
                  {
@@ -53,6 +55,7 @@ nv.addGraph(function() {
 //                     { x: Date.parse('Sep 02, 2015'), y: 226 },
                      { x: Date.parse('Sep 11, 2015'), y: 228 },
                      { x: Date.parse('Sep 18, 2015'), y: 230 },
+                     { x: Date.parse('Sep 25, 2015'), y: 231 },
                    ]
                  },
                ];
