@@ -29,6 +29,7 @@ nv.addGraph(function() {
                      { x: Date.parse('Sep 09, 2015'), y: 145 },
                      { x: Date.parse('Sep 16, 2015'), y: 155 },
                      { x: Date.parse('Sep 23, 2015'), y: 165 },
+                     { x: Date.parse('Sep 30, 2015'), y: 165 },
                    ]
                  },
                  {
@@ -37,6 +38,7 @@ nv.addGraph(function() {
                      { x: Date.parse('Sep 09, 2015'), y: 195 },
                      { x: Date.parse('Sep 16, 2015'), y: 210 },
                      { x: Date.parse('Sep 23, 2015'), y: 215 },
+                     { x: Date.parse('Sep 30, 2015'), y: 205 },
                    ]
                  },
                  {
