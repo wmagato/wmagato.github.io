@@ -24,7 +24,7 @@ nv.addGraph(function() {
       .datum(function squatData() {  //Populate the <svg> element with chart data...
                return [
                  {
-                   key: '3-Position Snatch (10x1)',
+                   key: '3-Position Snatch',
                    values: [
                      { x: Date.parse('Sep 08, 2015'), y: 135 },
                      { x: Date.parse('Sep 14, 2015'), y: 145 },
@@ -34,10 +34,11 @@ nv.addGraph(function() {
                      { x: Date.parse('Oct 19, 2015'), y: 155 },
                      { x: Date.parse('Oct 26, 2015'), y: 165 },
                      { x: Date.parse('Nov 02, 2015'), y: 135 },
+                     { x: Date.parse('Nov 09, 2015'), y: 135 },
                    ]
                  },
                  {
-                   key: 'Power Clean (5x2)',
+                   key: 'Power Clean',
                    values: [
                      { x: Date.parse('Sep 08, 2015'), y: 205 },
                      { x: Date.parse('Sep 14, 2015'), y: 215 },
@@ -46,10 +47,11 @@ nv.addGraph(function() {
                      { x: Date.parse('Oct 13, 2015'), y: 185 },
                      { x: Date.parse('Oct 20, 2015'), y: 205 },
                      { x: Date.parse('Oct 26, 2015'), y: 205 },
+                     { x: Date.parse('Nov 09, 2015'), y: 205 },
                    ]
                  },
                  {
-                   key: 'Back Squat (5x5)',
+                   key: 'Back Squat',
                    values: [
                      { x: Date.parse('Sep 08, 2015'), y: 155 },
                      { x: Date.parse('Sep 14, 2015'), y: 205 },
@@ -59,10 +61,11 @@ nv.addGraph(function() {
                      { x: Date.parse('Oct 19, 2015'), y: 185 },
                      { x: Date.parse('Oct 20, 2015'), y: 185 },
                      { x: Date.parse('Nov 02, 2015'), y: 225 },
+                     { x: Date.parse('Nov 08, 2015'), y: 295 },
                    ]
                  },
                  {
-                   key: 'Split Jerk (5x2)',
+                   key: 'Split Jerk',
                    values: [
                      { x: Date.parse('Sep 08, 2015'), y: 185 },
                      { x: Date.parse('Sep 14, 2015'), y: 205 },
@@ -71,6 +74,7 @@ nv.addGraph(function() {
                      { x: Date.parse('Oct 20, 2015'), y: 245 },
                      { x: Date.parse('Oct 26, 2015'), y: 245 },
                      { x: Date.parse('Nov 03, 2015'), y: 225 },
+                     { x: Date.parse('Nov 09, 2015'), y: 225 },
                    ]
                  },
                ];

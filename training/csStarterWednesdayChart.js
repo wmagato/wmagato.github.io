@@ -24,7 +24,7 @@ nv.addGraph(function() {
       .datum(function squatData() {  //Populate the <svg> element with chart data...
                return [
                  {
-                   key: 'HS + OHS (5x1)',
+                   key: 'HS + OHS',
                    values: [
                      { x: Date.parse('Sep 09, 2015'), y: 145 },
                      { x: Date.parse('Sep 16, 2015'), y: 155 },
@@ -34,7 +34,7 @@ nv.addGraph(function() {
                    ]
                  },
                  {
-                   key: '3-Position Clean (10x1)',
+                   key: '3-Position Clean',
                    values: [
                      { x: Date.parse('Sep 09, 2015'), y: 195 },
                      { x: Date.parse('Sep 16, 2015'), y: 210 },
@@ -46,14 +46,14 @@ nv.addGraph(function() {
                    ]
                  },
                  {
-                   key: 'Front Squat (5x3)',
+                   key: 'Front Squat',
                    values: [
                      { x: Date.parse('Sep 09, 2015'), y: 185 },
                      { x: Date.parse('Sep 16, 2015'), y: 205 },
                    ]
                  },
                  {
-                   key: 'Push Jerk (5x3)',
+                   key: 'Push Jerk',
                    values: [
                      { x: Date.parse('Sep 09, 2015'), y: 95 },
                      { x: Date.parse('Sep 16, 2015'), y: 155 },
