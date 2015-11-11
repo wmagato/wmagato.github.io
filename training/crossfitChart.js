@@ -35,7 +35,7 @@ nv.addGraph(function() {
                  {
                    key: 'Grace',
                    values: [
-                     { x: Date.parse('Nov 09, 2015'), y: 424000 },
+                     { x: Date.parse('Nov 09, 2015'), y: 434000 },
                    ]
                  },
                  {
