@@ -17,7 +17,7 @@ nv.addGraph(function() {
   chart.yAxis     //Chart y-axis settings
        .axisLabel('Weight (lbs)');
 
-  chart.forceX([Date.parse('Sep 07, 2015'), Date.parse('Nov 16, 2015')]);
+  chart.forceX([Date.parse('Sep 07, 2015'), Date.parse('Jan 29, 2016')]);
   chart.forceY([0, 400]);
 
   d3.select('#squatsChart svg')       //Select the <svg> element you want to render the chart in.   
