@@ -27,18 +27,21 @@ nv.addGraph(function() {
                    key: 'Overhead',
                    values: [
                      { x: Date.parse('Nov 20, 2015'), y: 185 },
+                     { x: Date.parse('Dec 04, 2015'), y: 205 },
                    ]
                  },
                  {
                    key: 'Front',
                    values: [
                      { x: Date.parse('Nov 20, 2015'), y: 275 },
+                     { x: Date.parse('Dec 04, 2015'), y: 275 },
                    ]
                  },
                  {
                    key: 'Back',
                    values: [
                      { x: Date.parse('Nov 20, 2015'), y: 295 },
+                     { x: Date.parse('Dec 04, 2015'), y: 315 },
                    ]
                  },
                  {
@@ -46,6 +49,7 @@ nv.addGraph(function() {
                    color: '#0f0f0f',
                    values: [
                      { x: Date.parse('Nov 20, 2015'), y: 231 },
+                     { x: Date.parse('Dec 04, 2015'), y: 232 },
                    ]
                  },
                ];
