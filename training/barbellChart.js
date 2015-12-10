@@ -17,8 +17,8 @@ nv.addGraph(function() {
   chart.yAxis     //Chart y-axis settings
        .axisLabel('Weight (lbs)');
 
-  chart.forceX([Date.parse('Dec 22, 2014'), Date.parse('Apr 30, 2015')]);
-  chart.forceY([150, 400]);
+//  chart.forceX([Date.parse('Dec 22, 2014'), Date.parse('Apr 30, 2015')]);
+//  chart.forceY([150, 400]);
 
   d3.select('#barbellChart svg')       //Select the <svg> element you want to render the chart in.   
       .datum(function squatData() {  //Populate the <svg> element with chart data...
@@ -37,24 +37,6 @@ nv.addGraph(function() {
                    ]
                  },
                  {
-                   key: 'Squat Target',
-                   values: [
-                     { x: Date.parse('Dec 29, 2014'), y: 195 },
-                     { x: Date.parse('Jan 05, 2015'), y: 205 },
-                     { x: Date.parse('Jan 12, 2015'), y: 215 },
-                     { x: Date.parse('Jan 19, 2015'), y: 225 },
-                     { x: Date.parse('Jan 26, 2015'), y: 235 },
-                     { x: Date.parse('Jan 28, 2015'), y:   0 },
-                     { x: Date.parse('Mar 24, 2015'), y:   0 },
-                     { x: Date.parse('Mar 24, 2015'), y: 195 },
-                     { x: Date.parse('Mar 31, 2015'), y: 205 },
-                     { x: Date.parse('Apr 07, 2015'), y: 215 },
-                     { x: Date.parse('Apr 14, 2015'), y: 225 },
-                     { x: Date.parse('Apr 21, 2015'), y: 235 },
-                     { x: Date.parse('Apr 28, 2015'), y: 245 },
-                   ]
-                 },
-                 {
                    key: 'Deadlift 5RM',
                    values: [
                      { x: Date.parse('Jan 01, 2015'), y: 260 },
@@ -68,28 +50,12 @@ nv.addGraph(function() {
                    ]
                  },
                  {
-                   key: 'Deadlift Target',
-                   values: [
-                     { x: Date.parse('Dec 31, 2014'), y: 260 },
-                     { x: Date.parse('Jan 07, 2015'), y: 270 },
-                     { x: Date.parse('Jan 14, 2015'), y: 280 },
-                     { x: Date.parse('Jan 21, 2015'), y: 290 },
-                     { x: Date.parse('Jan 27, 2015'), y: 300 },
-                     { x: Date.parse('Jan 28, 2015'), y:   0 },
-                     { x: Date.parse('Mar 27, 2015'), y:   0 },
-                     { x: Date.parse('Mar 27, 2015'), y: 225 },
-                     { x: Date.parse('Apr 07, 2015'), y: 235 },
-                     { x: Date.parse('Apr 14, 2015'), y: 245 },
-                     { x: Date.parse('Apr 21, 2015'), y: 255 },
-                     { x: Date.parse('Apr 28, 2015'), y: 265 },
-                   ]
-                 },
-                 {
                    key: 'Clean 1RM',
                    values: [
                      { x: Date.parse('Dec 23, 2014'), y: 215},
                      { x: Date.parse('Jan 03, 2015'), y: 175},
                      { x: Date.parse('Jan 07, 2015'), y: 200},
+                     { x: Date.parse('Dec 09, 2015'), y: 250},
                    ]
                  },
                  {
