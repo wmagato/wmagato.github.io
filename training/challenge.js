@@ -24,33 +24,48 @@ nv.addGraph(function() {
       .datum(function challengeData() {  //Populate the <svg> element with chart data...
                return [
                  {
+                   // 2 points for each rep
+                   // 3 extra points for every 10 reps
+                   // 5 extra points for every 25 reps
+                   // 10 extra points for every 50 reps
                    key: 'Push-ups',
                    values: [
-                     { x: Date.parse('Jan 11, 2016'), y: 135 },
+                     { x: Date.parse('Jan 11, 2016'), y: 42+3+3+3+3+5 },
                    ]
                  },
                  {
+                   // 2 points for each rep
+                   // 3 extra points for every 10 reps
+                   // 5 extra points for every 25 reps
+                   // 10 extra points for every 50 reps
                    key: 'Squats',
                    values: [
-                     { x: Date.parse('Jan 11, 2016'), y: 135 },
+                     { x: Date.parse('Jan 11, 2016'), y: 0 },
                    ]
                  },
                  {
+                   // 1 point for every 15 seconds
+                   // 3 extra points for every 60 seconds
+                   // 10 extra points for every 5 minutes
                    key: 'Wall-sits',
                    values: [
-                     { x: Date.parse('Jan 11, 2016'), y: 135 },
+                     { x: Date.parse('Jan 11, 2016'), y: 0 },
                    ]
                  },
                  {
                    key: 'Pillars',
                    values: [
-                     { x: Date.parse('Jan 11, 2016'), y: 135 },
+                     { x: Date.parse('Jan 11, 2016'), y: 0 },
                    ]
                  },
                  {
+                   // 2 points for each pound and 1% lost
+                   // 5 extra points for every 5 pounds and 5% lost
+                   // 10 extra points for every 10 pounds and 10% lost
+                   // started at 231.4
                    key: 'Weight-loss',
                    values: [
-                     { x: Date.parse('Jan 11, 2016'), y: 135 },
+                     { x: Date.parse('Jan 11, 2016'), y: 0 },
                    ]
                  },
                ];
