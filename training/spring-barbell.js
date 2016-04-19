@@ -26,7 +26,7 @@ nv.addGraph(function() {
                  {
                    key: 'Snatch',
                    values: [
-//                     { x: Date.parse('Sep 02, 2015'), y: 135 },
+                     { x: Date.parse('Apr 18, 2016'), y: 165 },
                    ]
                  },
                  {
@@ -62,7 +62,7 @@ nv.addGraph(function() {
                  {
                    key: 'Back Squat (3RM)',
                    values: [
-//                     { x: Date.parse('Sep 02, 2015'), y: 185 },
+                     { x: Date.parse('Apr 18, 2016'), y: 295 },
                    ]
                  },
                  {
@@ -75,7 +75,7 @@ nv.addGraph(function() {
                    key: 'Body Weight',
                    color: '#0f0f0f',
                    values: [
-                     { x: Date.parse('Apr 18, 2016'), y: 238 },
+                     { x: Date.parse('Apr 18, 2016'), y: 239 },
                    ]
                  },
                ];
