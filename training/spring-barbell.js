@@ -48,30 +48,30 @@ nv.addGraph(function() {
                      { x: Date.parse('May 06, 2016'), y: 225 },
                    ]
                  },
-                 {
-                   key: 'Overhead Squat (3RM)',
-                   values: [
+//                 {
+//                   key: 'Overhead Squat (3RM)',
+//                   values: [
 //                     { x: Date.parse('Sep 02, 2015'), y: 185 },
-                   ]
-                 },
-                 {
-                   key: 'Front Squat (3RM)',
-                   values: [
+//                   ]
+//                 },
+//                 {
+//                   key: 'Front Squat (3RM)',
+//                   values: [
 //                     { x: Date.parse('Sep 02, 2015'), y: 185 },
-                   ]
-                 },
+//                   ]
+//                 },
                  {
                    key: 'Back Squat (3RM)',
                    values: [
                      { x: Date.parse('Apr 18, 2016'), y: 295 },
                    ]
                  },
-                 {
-                   key: 'Deadlift (5RM)',
-                   values: [
+//                 {
+//                   key: 'Deadlift (5RM)',
+//                   values: [
 //                     { x: Date.parse('Sep 02, 2015'), y: 185 },
-                   ]
-                 },
+//                   ]
+//                 },
                  {
                    key: 'Body Weight',
                    color: '#0f0f0f',
