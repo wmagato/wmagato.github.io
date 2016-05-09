@@ -33,6 +33,7 @@ nv.addGraph(function() {
                  {
                    key: 'Clean',
                    values: [
+                     { x: Date.parse('Apr 28, 2016'), y: 245 },
                      { x: Date.parse('May 05, 2016'), y: 245 },
                    ]
                  },
