@@ -28,6 +28,7 @@ nv.addGraph(function() {
                    values: [
                      { x: Date.parse('Apr 18, 2016'), y: 165 },
                      { x: Date.parse('May 06, 2016'), y: 175 },
+                     { x: Date.parse('May 06, 2016'), y: 165 },
                    ]
                  },
                  {
@@ -65,6 +66,7 @@ nv.addGraph(function() {
                    key: 'Back Squat (3RM)',
                    values: [
                      { x: Date.parse('Apr 18, 2016'), y: 295 },
+                     { x: Date.parse('May 09, 2016'), y: 295 },
                    ]
                  },
 //                 {
@@ -81,6 +83,7 @@ nv.addGraph(function() {
                      { x: Date.parse('Apr 19, 2016'), y: 238 },
                      { x: Date.parse('May 05, 2016'), y: 241 },
                      { x: Date.parse('May 06, 2016'), y: 239 },
+                     { x: Date.parse('May 09, 2016'), y: 239 },
                    ]
                  },
                ];
