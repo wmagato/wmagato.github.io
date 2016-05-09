@@ -27,24 +27,25 @@ nv.addGraph(function() {
                    key: 'Snatch',
                    values: [
                      { x: Date.parse('Apr 18, 2016'), y: 165 },
+                     { x: Date.parse('May 06, 2016'), y: 175 },
                    ]
                  },
                  {
                    key: 'Clean',
                    values: [
-//                     { x: Date.parse('Sep 02, 2015'), y: 185 },
+                     { x: Date.parse('May 05, 2016'), y: 245 },
                    ]
                  },
                  {
                    key: 'Jerk',
                    values: [
-//                     { x: Date.parse('Sep 02, 2015'), y: 185 },
+                     { x: Date.parse('Apr 19, 2016'), y: 225 },
                    ]
                  },
                  {
                    key: 'Clean & Jerk',
                    values: [
-//                     { x: Date.parse('Sep 02, 2015'), y: 185 },
+                     { x: Date.parse('May 06, 2016'), y: 225 },
                    ]
                  },
                  {
@@ -76,6 +77,9 @@ nv.addGraph(function() {
                    color: '#0f0f0f',
                    values: [
                      { x: Date.parse('Apr 18, 2016'), y: 239 },
+                     { x: Date.parse('Apr 19, 2016'), y: 238 },
+                     { x: Date.parse('May 05, 2016'), y: 241 },
+                     { x: Date.parse('May 06, 2016'), y: 239 },
                    ]
                  },
                ];

@@ -29,12 +29,14 @@ nv.addGraph(function() {
                    key: '50-Pull-ups',
                    values: [
                      { x: Date.parse('Apr 18, 2016'), y: 470000 },
+                     { x: Date.parse('May 02, 2016'), y: 401000 },
                    ]
                  },
                  {
                    key: '50-Ring Dips',
                    values: [
-//                     { x: Date.parse('Jan 29, 2015'), y: 462000 },
+                     { x: Date.parse('Apr 20, 2016'), y: 885000 },
+                     { x: Date.parse('May 04, 2016'), y: 710000 },
                    ]
                  },
                  {
