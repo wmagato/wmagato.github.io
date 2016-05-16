@@ -48,7 +48,7 @@ nv.addGraph(function() {
                      { x: Date.parse('May 10, 2016'), y: 548000 },
                    ]
                  },
-                 {
+//                 {
 //                   key: '55-Deadlifts',
 //                   values: [
 //                     { x: Date.parse('Feb 09, 2015'), y: 436000 },
