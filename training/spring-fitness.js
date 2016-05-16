@@ -31,6 +31,7 @@ nv.addGraph(function() {
                      { x: Date.parse('Apr 18, 2016'), y: 470000 },
                      { x: Date.parse('May 02, 2016'), y: 401000 },
                      { x: Date.parse('May 09, 2016'), y: 345000 },
+                     { x: Date.parse('May 16, 2016'), y: 311000 },
                    ]
                  },
                  {
@@ -38,50 +39,51 @@ nv.addGraph(function() {
                    values: [
                      { x: Date.parse('Apr 20, 2016'), y: 885000 },
                      { x: Date.parse('May 04, 2016'), y: 710000 },
+                     { x: Date.parse('May 10, 2016'), y: 575000 },
                    ]
                  },
                  {
                    key: '50-Burpees',
                    values: [
-//                     { x: Date.parse('Jan 02, 2015'), y: 359000 },
+                     { x: Date.parse('May 10, 2016'), y: 548000 },
                    ]
                  },
                  {
-                   key: '55-Deadlifts',
-                   values: [
+//                   key: '55-Deadlifts',
+//                   values: [
 //                     { x: Date.parse('Feb 09, 2015'), y: 436000 },
-                   ]
-                 },
-                 {
-                   key: '55-Bench Press',
-                   values: [
+//                   ]
+//                 },
+//                 {
+//                   key: '55-Bench Press',
+//                   values: [
 //                     { x: Date.parse('Feb 09, 2015'), y: 436000 },
-                   ]
-                 },
-                 {
-                   key: '55-Cleans',
-                   values: [
+//                   ]
+//                 },
+//                 {
+//                   key: '55-Cleans',
+//                   values: [
 //                     { x: Date.parse('Feb 09, 2015'), y: 436000 },
-                   ]
-                 },
-                 {
-                   key: 'Isobel',
-                   values: [
+//                   ]
+//                 },
+//                 {
+//                   key: 'Isobel',
+//                   values: [
 //                     { x: Date.parse('Feb 09, 2015'), y: 436000 },
-                   ]
-                 },
-                 {
-                   key: 'Grace',
-                   values: [
+//                   ]
+//                 },
+//                 {
+//                   key: 'Grace',
+//                   values: [
 //                     { x: Date.parse('Feb 09, 2015'), y: 436000 },
-                   ]
-                 },
-                 {
-                   key: 'Annie',
-                   values: [
+//                   ]
+//                 },
+//                 {
+//                   key: 'Annie',
+//                   values: [
 //                     { x: Date.parse('Feb 09, 2015'), y: 436000 },
-                   ]
-                 },
+//                   ]
+//                 },
                ];
              })
       .call(chart);          //Finally, render the chart!
