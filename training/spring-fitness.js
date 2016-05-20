@@ -47,6 +47,7 @@ nv.addGraph(function() {
                    key: '50-Burpees',
                    values: [
                      { x: Date.parse('May 10, 2016'), y: 548000 },
+                     { x: Date.parse('May 19, 2016'), y: 436000 },
                    ]
                  },
 //                 {
