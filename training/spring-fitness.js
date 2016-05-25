@@ -32,6 +32,7 @@ nv.addGraph(function() {
                      { x: Date.parse('May 02, 2016'), y: 401000 },
                      { x: Date.parse('May 09, 2016'), y: 345000 },
                      { x: Date.parse('May 16, 2016'), y: 311000 },
+                     { x: Date.parse('May 25, 2016'), y: 284000 },
                    ]
                  },
                  {
