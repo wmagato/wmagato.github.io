@@ -31,14 +31,6 @@
 
   <body class='with-3d-shadow with-transitions'>
     <div style="position:absolute; top: 0; left: 0;">
-      <button onclick="expandLegend();">Expand/Contract Legend</button>
-      <script>
-        var expandLegend = function() {
-            var exp = chart.legend.expanded();
-            chart.legend.expanded(!exp);
-            chart.update();
-        }
-      </script>
     </div>
     <div id="chart1"></div>
 
@@ -56,18 +48,11 @@
         ;
         // chart sub-models (ie. xAxis, yAxis, etc) when accessed directly, return themselves, not the parent chart, so need to chain separately
         chart.xAxis
-            .axisLabel("Time (s)")
-            .tickFormat(d3.format(',.1f'))
+            .axisLabel("Day")
             .staggerLabels(true)
         ;
         chart.yAxis
-            .axisLabel('Voltage (v)')
-            .tickFormat(function(d) {
-                if (d == null) {
-                    return 'N/A';
-                }
-                return d3.format(',.2f')(d);
-            })
+            .axisLabel('Time (s)')
         ;
 
         data = plankTimes();
