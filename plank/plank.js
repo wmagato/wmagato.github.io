@@ -1,6 +1,5 @@
 nv.addGraph(function() {
     chart = nv.models.lineChart()
-        .margin({ left: 100, right: 100 })  //Adjust chart margins to give the x-axis some breathing room.
         .options({
             duration: 300,
             useInteractiveGuideline: true
@@ -10,18 +9,11 @@ nv.addGraph(function() {
     // chart sub-models (ie. xAxis, yAxis, etc) when accessed directly, return themselves, not the parent chart, so need to chain separately
     chart.xAxis
         .axisLabel("Days")
-//        .tickFormat(d3.format(',.1f'))
-        .staggerLabels(true)
+//        .staggerLabels(true)
     ;
 
     chart.yAxis
         .axisLabel('Time (s)')
-//        .tickFormat(function(d) {
-//            if (d == null) {
-//                return 'N/A';
-//            }
-//            return d3.format(',.2f')(d);
-//        })
     ;
 
     chart.forceY([0, 300]);
