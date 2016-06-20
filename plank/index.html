@@ -19,7 +19,7 @@
             display: block;
         }
         html, body, #chart1, svg {
-            margin: 0px;
+            margin: 20px;
             padding: 0px;
             height: 100%;
             width: 100%;
@@ -69,6 +69,13 @@
       function plankTimes() {
         return [
           {
+            key: "Nicki",
+            values: [
+                { x: 1, y: 20 },
+                { x: 2, y: 20 },
+            ]
+          },
+          {
             area: true,
             key: "Target",
             values: [
@@ -80,14 +87,6 @@
                 { x: 7, y: 45 },
                 { x: 8, y: 45 },
                 { x: 9, y: 60 },
-            ]
-          },
-          {
-            area: true,
-            key: "Nicki",
-            values: [
-                { x: 1, y: 20 },
-                { x: 2, y: 20 },
             ]
           },
         ];
