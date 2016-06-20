@@ -1,5 +1,6 @@
 nv.addGraph(function() {
     chart = nv.models.lineChart()
+        .height(400px)
         .options({
             duration: 300,
             useInteractiveGuideline: true
