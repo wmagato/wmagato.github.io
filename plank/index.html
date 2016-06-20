@@ -43,6 +43,7 @@
         chart = nv.models.lineChart()
             .options({
                 duration: 300,
+                .margin({ left: 100, right: 100 })  //Adjust chart margins to give the x-axis some breathing room.
                 useInteractiveGuideline: true
             })
         ;
@@ -80,6 +81,14 @@
                 { x: 7, y: 45 },
                 { x: 8, y: 45 },
                 { x: 9, y: 60 },
+            ]
+          },
+          {
+            area: true,
+            key: "Nicki",
+            values: [
+                { x: 1, y: 20 },
+                { x: 2, y: 20 },
             ]
           },
         ];
