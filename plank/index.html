@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -5,20 +6,97 @@
     <meta name="author" content="@wmagato">
 
     <style type="text/css">h2 { font-family: sans-serif; }</style>
-
     <link href="/plank/assets/css/nv.d3.css" rel="stylesheet">
-
     <script src="/plank/assets/lib/d3.js"></script>
     <script src="/plank/assets/js/nv.d3.js"></script>
+
+    <style>
+        text {
+            font: 12px sans-serif;
+        }
+        svg {
+            display: block;
+        }
+        html, body, #chart1, svg {
+            margin: 0px;
+            padding: 0px;
+            height: 100%;
+            width: 100%;
+        }
+        .dashed {
+            stroke-dasharray: 5,5;
+        }
+    </style>
   <head>
 
-  <body>
-
-    <div>
-      <h2 align="center" >30 Day Plank Challenge</h2>
-      <svg id='plank'></svg>
-      <script src='/plank/plank.js' type='text/javascript'> </script>
+  <body class='with-3d-shadow with-transitions'>
+    <div style="position:absolute; top: 0; left: 0;">
+      <button onclick="expandLegend();">Expand/Contract Legend</button>
+      <script>
+        var expandLegend = function() {
+            var exp = chart.legend.expanded();
+            chart.legend.expanded(!exp);
+            chart.update();
+        }
+      </script>
     </div>
+    <div id="chart1"></div>
 
+    <script>
+      // Wrapping in nv.addGraph allows for '0 timeout render', stores rendered charts in nv.graphs, and may do more in the future... it's NOT required
+      var chart;
+      var data;
+
+      nv.addGraph(function() {
+        chart = nv.models.lineChart()
+            .options({
+                duration: 300,
+                useInteractiveGuideline: true
+            })
+        ;
+        // chart sub-models (ie. xAxis, yAxis, etc) when accessed directly, return themselves, not the parent chart, so need to chain separately
+        chart.xAxis
+            .axisLabel("Time (s)")
+            .tickFormat(d3.format(',.1f'))
+            .staggerLabels(true)
+        ;
+        chart.yAxis
+            .axisLabel('Voltage (v)')
+            .tickFormat(function(d) {
+                if (d == null) {
+                    return 'N/A';
+                }
+                return d3.format(',.2f')(d);
+            })
+        ;
+
+        data = plankTimes();
+
+        d3.select('#chart1').append('svg')
+            .datum(data)
+            .call(chart);
+        nv.utils.windowResize(chart.update);
+        return chart;
+      });
+
+      function plankTimes() {
+        return [
+          {
+            area: true,
+            key: "Target",
+            values: [
+                { x: 1, y: 20 },
+                { x: 2, y: 20 },
+                { x: 3, y: 30 },
+                { x: 4, y: 30 },
+                { x: 5, y: 40 },
+                { x: 7, y: 45 },
+                { x: 8, y: 45 },
+                { x: 9, y: 60 },
+            ]
+          },
+        ];
+      }
+    </script>
   </body>
 </html>
