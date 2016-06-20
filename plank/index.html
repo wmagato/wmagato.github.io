@@ -30,8 +30,7 @@
   <head>
 
   <body class='with-3d-shadow with-transitions'>
-    <div style="position:absolute; top: 0; left: 0;">
-    </div>
+    <div>30 Day Plank Challenge</div>
     <div id="chart1"></div>
 
     <script>
@@ -54,6 +53,8 @@
         chart.yAxis
             .axisLabel('Time (s)')
         ;
+
+        chart.forceY([0, 300]);
 
         data = plankTimes();
 
