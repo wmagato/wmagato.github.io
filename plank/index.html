@@ -58,17 +58,15 @@
 
         chart.forceY([0, 300]);
 
-        data = plankTimes();
-
         d3.select('#chart1').append('svg')
-            .datum(data)
+            .datum(plankData())
             .call(chart);
 
         nv.utils.windowResize(chart.update);
         return chart;
       });
 
-      function plankTimes() {
+      function plankData() {
         return [
           {
             key: "Nicki",
