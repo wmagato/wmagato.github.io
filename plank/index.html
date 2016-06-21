@@ -66,13 +66,17 @@
         return chart;
       });
 
+        function plankTime(min, sec) {
+            return ((min * 60000) + (sec * 1000));
+        }
+
       function plankData() {
         return [
           {
             key: "Nicki",
             values: [
                 { x: 0, y: 0 },
-                { x: 1, y: 23000 },
+                { x: 1, y: plankTime(0, 23) },
             ]
           },
           {
