@@ -48,16 +48,15 @@
         ;
         // chart sub-models (ie. xAxis, yAxis, etc) when accessed directly, return themselves, not the parent chart, so need to chain separately
         chart.xAxis
-//            .axisLabel("Day")
             .staggerLabels(true)
         ;
         chart.yAxis
             .axisLabel('Time')
             .tickFormat(function(d) {
-                return d3.time.format("%M:%S")(d)})
+                return d3.time.format("%M:%S")(new Date(d))})
         ;
 
-//        chart.forceY([0, 300]);
+        chart.forceY([0, 300]);
 
         data = plankTimes();
 
@@ -68,66 +67,62 @@
         return chart;
       });
 
-      function time(min, sec) {
-        return new Date(0, 0, 0, 0, min, sec, 0);
-      }
-
       function plankTimes() {
         return [
           {
             key: "Nicki",
             values: [
                 { x: 0, y: 0 },
-                { x: 1, y: time(0, 23) },
+                { x: 1, y: 23000 },
             ]
           },
           {
             key: "Bill",
             values: [
                 { x: 0, y: 0 },
-                { x: 1, y: time(1, 23) },
+                { x: 1, y: 83000 },
             ]
           },
           {
             key: "Jill",
             values: [
                 { x: 0, y: 0 },
-                { x: 1, y: time(1, 13) },
+                { x: 1, y: 73000 },
             ]
           },
           {
             key: "Peter",
             values: [
                 { x: 0, y: 0 },
-                { x: 1, y: time(2, 0) },
+                { x: 1, y: 120000 },
             ]
           },
           {
             key: "Sarah",
             values: [
                 { x: 0, y: 0 },
-                { x: 1, y: time(1, 45) },
+                { x: 1, y: 105000 },
             ]
           },
           {
             key: "Paige",
             values: [
                 { x: 0, y: 0 },
-                { x: 1, y: time(1, 6) },
+                { x: 1, y: 66000 },
             ]
           },
           {
             key: "Addison",
             values: [
                 { x: 0, y: 0 },
-                { x: 1, y: time(1, 7) },
+                { x: 1, y: 67000 },
             ]
           },
           {
             key: "Angela",
             values: [
                 { x: 0, y: 0 },
-                { x: 1, y: time(0, 40) },
+                { x: 1, y: 40000 },
             ]
           },
           {
@@ -135,45 +130,45 @@
             key: "Target",
             color: '#808080',
             values: [
-                { x: 0, y: time(0, 0) },
-                { x: 1, y: time(0, 20) },
-                { x: 2, y: time(0, 20) },
-                { x: 3, y: time(0, 30) },
-                { x: 4, y: time(0, 30) },
-                { x: 5, y: time(0, 40) },
-                { x: 5, y: time(0, 0) },
-                { x: 6, y: time(0, 0) }, // rest day
-                { x: 7, y: time(0, 0) },
-                { x: 7, y: time(0, 45) },
-                { x: 8, y: time(0, 45) },
-                { x: 9, y: time(0, 60) },
-                { x: 10, y: time(0, 60) },
-                { x: 11, y: time(0, 60) },
-                { x: 12, y: time(1, 30) },
-                { x: 12, y: time(0, 0) },
-                { x: 13, y: time(0, 0) }, // rest day
-                { x: 14, y: time(0, 0) },
-                { x: 14, y: time(1, 30) },
-                { x: 15, y: time(1, 30) },
-                { x: 16, y: time(2, 0) },
-                { x: 17, y: time(2, 0) },
-                { x: 18, y: time(2, 30) },
-                { x: 18, y: time(0, 0) },
-                { x: 19, y: time(0, 0) }, // rest day
-                { x: 20, y: time(0, 0) },
-                { x: 20, y: time(2, 30) },
-                { x: 21, y: time(2, 30) },
-                { x: 22, y: time(3, 0) },
-                { x: 23, y: time(3, 0) },
-                { x: 24, y: time(3, 30) },
-                { x: 25, y: time(3, 30) },
-                { x: 25, y: time(0, 0) },
-                { x: 26, y: time(0, 0) }, // rest day
-                { x: 27, y: time(0, 0) },
-                { x: 27, y: time(4, 0) },
-                { x: 28, y: time(4, 0) },
-                { x: 29, y: time(4, 30) },
-                { x: 30, y: time(5, 0) },
+                { x: 0, y: 0 },
+                { x: 1, y: 20000 },
+                { x: 2, y: 20000 },
+                { x: 3, y: 30000 },
+                { x: 4, y: 30000 },
+                { x: 5, y: 40000 },
+                { x: 5, y: 0 },
+                { x: 6, y: 0 }, // rest day
+                { x: 7, y: 0 },
+                { x: 7, y: 45000 },
+                { x: 8, y: 45000 },
+                { x: 9, y: 60000 },
+                { x: 10, y: 60000 },
+                { x: 11, y: 60000 },
+                { x: 12, y: 90000 },
+                { x: 12, y: 0 },
+                { x: 13, y: 0 }, // rest day
+                { x: 14, y: 0 },
+                { x: 14, y: 90000 },
+                { x: 15, y: 90000 },
+                { x: 16, y: 120000 },
+                { x: 17, y: 120000 },
+                { x: 18, y: 150000 },
+                { x: 18, y: 0 },
+                { x: 19, y: 0 }, // rest day
+                { x: 20, y: 0 },
+                { x: 20, y: 150000 },
+                { x: 21, y: 150000 },
+                { x: 22, y: 180000 },
+                { x: 23, y: 180000 },
+                { x: 24, y: 210000 },
+                { x: 25, y: 210000 },
+                { x: 25, y: 0 },
+                { x: 26, y: 0 }, // rest day
+                { x: 27, y: 0 },
+                { x: 27, y: 240000 },
+                { x: 28, y: 240000 },
+                { x: 29, y: 270000 },
+                { x: 30, y: 300000 },
             ]
           },
         ];
