@@ -58,17 +58,19 @@
 
         chart.forceY([0, 300]);
 
-        chart.append("text")
-            .attr("x", 200)             
-            .attr("y", 100)
-            .attr("text-anchor", "middle")  
-            .text("Sample Charts");
-
         data = plankTimes();
 
         d3.select('#chart1').append('svg')
             .datum(data)
             .call(chart);
+
+        d3.select('#chart1 svg')
+            .append("text")
+            .attr("x", 200)
+            .attr("y", 100)
+            .attr("text-anchor", "middle")
+            .text("Sample Charts");
+
         nv.utils.windowResize(chart.update);
         return chart;
       });
