@@ -45,6 +45,7 @@
                 .options({
                     duration: 300,
                     useInteractiveGuideline: true
+                    interpolate: "step-before"
                 })
             ;
 
@@ -143,7 +144,6 @@
                     area: true,
                     key: "Target",
                     color: '#808080',
-                    interpolate: "step-before"
                     values: [
                         { x: 0, y: plankTime(0, 0) },
                         { x: 1, y: plankTime(0, 20) },
