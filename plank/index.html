@@ -44,7 +44,7 @@
             chart = nv.models.lineChart()
                 .options({
                     duration: 300,
-                    useInteractiveGuideline: true
+                    useInteractiveGuideline: true,
                     interpolate: "step-before"
                 })
             ;
@@ -93,14 +93,6 @@
                     ]
                 },
                 {
-                    key: "Peter",
-                    values: [
-                        { x: 0, y: 0 },
-                        { x: 1, y: plankTime(2, 0) },
-                        { x: 2, y: plankTime(2, 0) },
-                    ]
-                },
-                {
                     key: "Addison",
                     values: [
                         { x: 0, y: 0 },
@@ -121,7 +113,7 @@
                     values: [
                         { x: 0, y: 0 },
                         { x: 1, y: plankTime(1, 13) },
-                        { x: 2, y: plankTime(1, 13) },
+                        { x: 2, y: plankTime(1, 8) },
                     ]
                 },
                 {
@@ -130,6 +122,14 @@
                         { x: 0, y: 0 },
                         { x: 1, y: plankTime(0, 40) },
                         { x: 2, y: plankTime(0, 40) },
+                    ]
+                },
+                {
+                    key: "Peter",
+                    values: [
+                        { x: 0, y: 0 },
+                        { x: 1, y: plankTime(2, 0) },
+                        { x: 2, y: plankTime(0, 30) },
                     ]
                 },
                 {
