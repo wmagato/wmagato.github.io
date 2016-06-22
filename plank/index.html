@@ -46,7 +46,6 @@
                     duration: 300,
                     useInteractiveGuideline: true
                 })
-                .interpolate("step-before")
             ;
 
             // chart sub-models (ie. xAxis, yAxis, etc) when accessed directly, return themselves, not the parent chart, so need to chain separately
@@ -144,6 +143,7 @@
                     area: true,
                     key: "Target",
                     color: '#808080',
+                    interpolate: "step-before"
                     values: [
                         { x: 0, y: plankTime(0, 0) },
                         { x: 1, y: plankTime(0, 20) },
