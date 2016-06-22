@@ -19,7 +19,7 @@ nv.addGraph(function() {
             return d3.time.format("%M:%S")(new Date(d))
           });
 
-  chart.forceX([Date.parse('Apr 18, 2016'), Date.parse('Jun 17, 2016')]);
+//  chart.forceX([Date.parse('Apr 18, 2016'), Date.parse('Jun 17, 2016')]);
   chart.forceY([0, 900000]);
 
   d3.select('#spring-fitness svg')       //Select the <svg> element you want to render the chart in.   
@@ -42,6 +42,9 @@ nv.addGraph(function() {
                      { x: Date.parse('May 04, 2016'), y: 710000 },
                      { x: Date.parse('May 10, 2016'), y: 575000 },
                      { x: Date.parse('May 18, 2016'), y: 437000 },
+                     { x: Date.parse('May 31, 2016'), y: 480000 },
+                     { x: Date.parse('Jun 03, 2016'), y: 408000 },
+                     { x: Date.parse('Jun 14, 2016'), y: 404000 },
                    ]
                  },
                  {
@@ -50,6 +53,7 @@ nv.addGraph(function() {
                      { x: Date.parse('May 10, 2016'), y: 548000 },
                      { x: Date.parse('May 19, 2016'), y: 436000 },
                      { x: Date.parse('May 26, 2016'), y: 393000 },
+                     { x: Date.parse('Jun 22, 2016'), y: 470000 },
                    ]
                  },
 //                 {
