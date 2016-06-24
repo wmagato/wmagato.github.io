@@ -31,6 +31,7 @@ nv.addGraph(function() {
                      { x: Date.parse('May 09, 2016'), y: 165 },
                      { x: Date.parse('May 20, 2016'), y: 165 },
                      { x: Date.parse('May 25, 2016'), y: 175 },
+                     { x: Date.parse('Jun 24, 2016'), y: 180 },
                    ]
                  },
                  {
@@ -53,6 +54,7 @@ nv.addGraph(function() {
                    values: [
                      { x: Date.parse('May 06, 2016'), y: 225 },
                      { x: Date.parse('May 20, 2016'), y: 225 },
+                     { x: Date.parse('Jun 24, 2016'), y: 225 },
                    ]
                  },
 //                 {
@@ -93,6 +95,7 @@ nv.addGraph(function() {
                      { x: Date.parse('May 16, 2016'), y: 237 },
                      { x: Date.parse('May 20, 2016'), y: 237 },
                      { x: Date.parse('May 25, 2016'), y: 239 },
+                     { x: Date.parse('Jun 24, 2016'), y: 241 },
                    ]
                  },
                ];
